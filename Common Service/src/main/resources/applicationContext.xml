@@ -27,7 +27,7 @@
     
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">  
         <property name="driverClassName"  value="com.mysql.jdbc.Driver"></property>  
-        <property name="url" value="jdbc:mysql://localhost:3306/ASK_BEFORE_YOU_BUY?zeroDateTimeBehavior=convertToNull"></property>  
+        <property name="url" value="jdbc:mysql://localhost:3306/akar?zeroDateTimeBehavior=convertToNull"></property>  
         <property name="username" value="root"></property>  
         <property name="password" value=""></property>  
     </bean>  
@@ -37,12 +37,9 @@
           
         <property name="annotatedClasses">  
             <list>  
-                <value>com.hossam.abyb.persistence.entities.Question</value>
-                <value>com.hossam.abyb.persistence.entities.Reply</value>
-                <value>com.hossam.abyb.persistence.entities.Tag</value>
-                <value>com.hossam.abyb.persistence.entities.User</value>
-                <value>com.hossam.abyb.persistence.entities.UserQuestionRate</value>
-                <value>com.hossam.abyb.persistence.entities.UserReplyRate</value>
+                <value>com.hossam.entities.Akar</value>
+                <value>com.hossam.entities.AkarType</value>
+                <value>com.hossam.entities.User</value>
             </list>  
         </property>  
           

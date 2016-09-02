@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.hossam</groupId>
+    <groupId>com.hossam.akar</groupId>
     <artifactId>AkarService</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -255,28 +255,18 @@
         </dependency>
         
         <dependency>
-            <groupId>com.hossam</groupId>
+            <groupId>com.hossam.akar</groupId>
             <artifactId>Skeleton</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         
         <dependency>
-            <groupId>com.hossam</groupId>
+            <groupId>com.hossam.akar</groupId>
             <artifactId>Entities</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
         
-        <dependency>
-            <groupId>com.hossam</groupId>
-            <artifactId>Users</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        
-        <dependency>
-            <groupId>com.hossam</groupId>
-            <artifactId>Replies</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
         
         <dependency>
             <groupId>com.sun.jersey.contribs</groupId>
